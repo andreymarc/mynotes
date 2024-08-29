@@ -80,7 +80,7 @@ class _RegisterViewState extends State<RegisterView> {
             onPressed: () {
               Navigator.of(context).pushNamedAndRemoveUntil(
                 registerRoute,
-                (routh) => false,
+                (route) => false,
               );
             },
             child: const Text('Already registered? Login here!'),
